@@ -566,6 +566,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .features, .about, .contact {
+        padding: 60px 0;
+    }
+
     .hamburger {
         display: flex;
     }
@@ -594,7 +598,7 @@ body {
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
     }
 
     .hero-buttons {
@@ -613,7 +617,11 @@ body {
 
     .stats {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
+    }
+
+    .stat h3 {
+        font-size: 2.1rem;
     }
 
     .hero-placeholder,
@@ -623,15 +631,16 @@ body {
     }
 
     .hero-placeholder i {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .about-placeholder i {
         font-size: 4rem;
     }
 
-    .section-header h2 {
-        font-size: 2rem;
+    .section-header h2,
+    .about-text h2 {
+        font-size: 2.2rem;
     }
 
     .features-grid {
@@ -640,16 +649,20 @@ body {
 }
 
 @media (max-width: 480px) {
+    body.no-scroll {
+        overflow: hidden;
+    }
+
     .container {
         padding: 0 15px;
     }
 
     .hero {
-        padding: 100px 0 60px;
+        padding: 80px 0 40px;
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     .hero-description {
@@ -657,12 +670,12 @@ body {
     }
 
     .btn {
-        padding: 10px 20px;
-        font-size: 0.9rem;
+        padding: 12px 24px;
+        font-size: 1rem;
     }
 
     .feature-card {
-        padding: 2rem;
+        padding: 2rem 1.5rem;
     }
 
     .contact-form {
@@ -680,6 +693,15 @@ body {
 
     .newsletter-form {
         flex-direction: column;
+    }
+
+    .section-header h2,
+    .about-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .stat h3 {
+        font-size: 1.9rem;
     }
 }
 
@@ -715,11 +737,10 @@ body {
     }
 }
 
-.hero-content,
 .feature-card,
 .about-text,
 .contact-info {
-    animation: fadeInUp 0.8s ease-out;
+    /* Animations handled by Intersection Observer in JS */
 }
 
 /* Smooth scrolling for anchor links */
