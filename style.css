@@ -257,7 +257,7 @@ body {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
 }
 
@@ -565,6 +565,46 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-container,
+    .about-content,
+    .contact-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .about-text, .contact-info {
+        text-align: left;
+    }
+
+    .hero-image {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        margin: 0 auto 2rem;
+        max-width: 600px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .stats {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-image {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .features, .about, .contact {
         padding: 60px 0;
@@ -621,7 +661,7 @@ body {
     }
 
     .stat h3 {
-        font-size: 2.1rem;
+        font-size: 2.2rem;
     }
 
     .hero-placeholder,
@@ -645,6 +685,16 @@ body {
 
     .features-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .feature-card {
+        padding: 2rem;
+        border-radius: 30px;
+    }
+
+    .about-text, .contact-info {
+        text-align: center;
     }
 }
 
