@@ -4,7 +4,7 @@ Welcome to the **Landing Page** repository! This is a sleek and responsive landi
 
 ## 🌐 Live Preview
 
-🔗 [View Live Site](https://sumangal44.github.io/landing-page/)
+🔗 [View Live Site](https://taniyya.github.io/landing-page/)
 
 ## 📸 Screenshots
 
@@ -15,7 +15,7 @@ Welcome to the **Landing Page** repository! This is a sleek and responsive landi
 - HTML5
 - CSS3
 - JavaScript
-- [Boxicons](https://boxicons.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 ## 📁 Folder Structure
 ```
@@ -26,4 +26,24 @@ landing-page/
 ├── index.html # Main HTML file
 └── README.md # Project info
 ```
+
+## 🚧 Features
+
+- Fully responsive design
+- Clean and modern layout
+- Interactive sections
+- Smooth scrolling effects
+
+## 🧑‍💻 Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
+
+## 📄 License
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by [Sumangal Karan](https://github.com/Sumangal44)
+
 
