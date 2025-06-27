@@ -8,7 +8,7 @@ Welcome to the **Landing Page** repository! This is a sleek and responsive landi
 
 ## 📸 Screenshots
 
-![Landing Page Screenshot](./screenshot.png)
+![Landing Page Screenshot](./Screenshot.png)
 
 ## 🛠 Tech Stack
 
